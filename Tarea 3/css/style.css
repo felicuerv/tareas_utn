@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #001aff;
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #FFFF;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* CONTAINTER INICIO */
+
+.inicio-body{
+    background-color: #333;
+}
+
+.container-inicio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.container-inicio h5{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFFF;
+}
+
+/* CONTAINER EJERCICIO 1 */
+
+.container-ejercicio1{
+    margin-bottom: 50vh;
+}
+.container-ejercicio1 h1{
+    margin-top: 100px;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.imagen{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.cuadrado p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25%;
+    color: white;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+/* EJERCICIO 2 */
+
+.container1{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+
+.cuadrado2{
+    width: 200px;
+    height: 200px;
+}
+
+.cuadrado2 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    color: white;
+}
+
+/* EJERCICIO 3 */
+
+.container2{
+    width: 1000px;
+    height: 150px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.cuadrado3{
+    width: 150px;
+    height: 150px;
+}
+
+.cuadrado3 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40%;
+    color: white;
+}
