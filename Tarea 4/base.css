@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 100%;
+	background: #8FA68E;
+	overflow: hidden;
+}
+#contenedor h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+nav {
+	background: #CC3910;
+	width: 100%;
+	padding: 20px;
+}
+ul {
+	list-style-type:none;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	text-align: center;
+}
+
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #7d7e64;
+	transition: all 0.3 ease;
+}
+
+section {
+	background: #F1F2C0;
+	float: left;
+	width: 100%;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 100%;
+}
+
+.section h2{
+	display: flex;
+	text-align: center;
+	padding: 10px;
+}
+.aside h2{
+	display: flex;
+	text-align: center;
+	padding: 10px;
+}
+.section p{
+	padding: 10px;
+}
+.aside p{
+	padding: 10px;
+}
+@media only screen and (max-width:600px){
+	.informacion{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
